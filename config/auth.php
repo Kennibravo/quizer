@@ -85,7 +85,7 @@ return [
 
         'admins' => [
             'driver' => 'eloquent',
-            'model' => App\Admin::class,
+            'model' => quizer\Admin::class,
         ],
 
         // 'users' => [
